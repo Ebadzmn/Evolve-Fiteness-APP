@@ -46,9 +46,6 @@ app.*.map.json
 
 .env
 
-google-services.json
-GoogleService-Info.plist
-
 # Gradle & Local Build Caches
 .gradle/
 .gradle-home/

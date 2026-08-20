@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "675991636837",
+    "project_id": "evolve-949b3",
+    "storage_bucket": "evolve-949b3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675991636837:android:7a4a4638c30a1bb222af8c",
+        "android_client_info": {
+          "package_name": "com.evolveapp.fitness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQT88aVJehCiN22sPPSJhXiHPonyb_-wg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
