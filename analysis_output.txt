@@ -1,0 +1,200 @@
+Analyzing fitness_gym_app...                                    
+
+   info • The constant name 'WorkoutSessionPage' isn't a lowerCamelCase identifier • lib/core/appRoutes/app_routes.dart:52:23 • constant_identifier_names
+   info • The variable name 'AppRouter' isn't a lowerCamelCase identifier • lib/core/appRoutes/app_routes.dart:74:16 • non_constant_identifier_names
+   info • The constant name 'AbCalender' isn't a lowerCamelCase identifier • lib/core/config/assets_path.dart:3:23 • constant_identifier_names
+   info • The constant name 'Clock' isn't a lowerCamelCase identifier • lib/core/config/assets_path.dart:8:23 • constant_identifier_names
+   info • Unnecessary use of 'toList' in a spread • lib/core/coreWidget/dropdown_tile.dart:41:58 • unnecessary_to_list_in_spreads
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/core/coreWidget/dropdown_tile.dart:96:69 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/core/coreWidget/dropdown_tile.dart:207:58 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/core/coreWidget/dropdown_yes_no_tile.dart:83:45 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/core/coreWidget/dropdown_yes_no_tile.dart:83:76 • deprecated_member_use
+warning • Unused import: 'api_exception.dart' • lib/core/network/api_interceptors.dart:5:8 • unused_import
+   info • 'printTime' is deprecated and shouldn't be used. Use `dateTimeFormat` with `DateTimeFormat.onlyTimeAndSinceStart` or `DateTimeFormat.none` instead • lib/core/network/api_interceptors.dart:14:5 • deprecated_member_use
+warning • The value of the field '_tokenStorage' isn't used • lib/core/network/api_interceptors.dart:68:22 • unused_field
+   info • Don't invoke 'print' in production code • lib/core/notifications/fcm_service.dart:50:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/notifications/fcm_service.dart:51:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/notifications/fcm_service.dart:52:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/notifications/fcm_service.dart:56:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/core/notifications/fcm_service.dart:140:7 • avoid_print
+   info • Unnecessary constructor invocation • lib/data/repositories/fake_checkin_repository.dart:41:22 • prefer_collection_literals
+   info • Parameter 'token' could be a super parameter • lib/features/auth/data/models/auth_model.dart:4:9 • use_super_parameters
+   info • The local variable '_cleanNum' starts with an underscore • lib/features/daily_tracking/data/models/daily_tracking_request_model.dart:10:12 • no_leading_underscores_for_local_identifiers
+   info • The local variable '_formatDate' starts with an underscore • lib/features/daily_tracking/data/models/daily_tracking_request_model.dart:17:12 • no_leading_underscores_for_local_identifiers
+   info • Don't invoke 'print' in production code • lib/features/training/data/datasources/exercise_remote_data_source.dart:34:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/training/data/datasources/exercise_remote_data_source.dart:35:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/training/data/datasources/exercise_remote_data_source.dart:36:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/training/data/datasources/exercise_remote_data_source.dart:37:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/training/data/datasources/training_remote_datasource.dart:67:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/training/data/datasources/training_remote_datasource.dart:71:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/training/data/datasources/training_remote_datasource.dart:79:7 • avoid_print
+warning • Unused import: 'package:fitness_app/core/network/api_client.dart' • lib/features/training/data/repositories/training_repository_impl.dart:2:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/features/training/presentation/pages/bloc/training_history/training_history_bloc.dart:24:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/features/training/presentation/pages/bloc/training_history/training_history_bloc.dart:33:9 • avoid_print
+   info • The file name 'forgetPass_page.dart' isn't a lower_case_with_underscores identifier • lib/presentation/auth/pages/forgetPass_page.dart:1:1 • file_names
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/auth/pages/login_page.dart:161:41 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/auth/pages/password_changed_success_page.dart:33:52 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/auth/pages/password_changed_success_page.dart:45:41 • deprecated_member_use
+   info • The file name 'customButton.dart' isn't a lower_case_with_underscores identifier • lib/presentation/auth/widgets/customButton.dart:1:1 • file_names
+   info • The file name 'customTextField.dart' isn't a lower_case_with_underscores identifier • lib/presentation/auth/widgets/customTextField.dart:1:1 • file_names
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/auth/widgets/customTextField.dart:62:57 • deprecated_member_use
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/presentation/auth/widgets/custom_appbar.dart:26:22 • sized_box_for_whitespace
+   info • The file name 'checkIn_pages.dart' isn't a lower_case_with_underscores identifier • lib/presentation/checkIn/pages/checkIn_pages.dart:1:1 • file_names
+  error • The getter 'checkInAppBarTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:74:25 • undefined_getter
+  error • The getter 'checkInStepProfile' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:112:46 • undefined_getter
+  error • The getter 'checkInStepPhotos' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:123:46 • undefined_getter
+  error • The getter 'checkInStepQuestions' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:134:46 • undefined_getter
+  error • The getter 'checkInStepChecking' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:145:46 • undefined_getter
+  error • The getter 'checkInTabWeekly' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:179:45 • undefined_getter
+  error • The getter 'checkInTabOld' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:205:45 • undefined_getter
+  error • The getter 'commonNext' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:249:43 • undefined_getter
+  error • The getter 'commonSubmit' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:277:43 • undefined_getter
+  error • The getter 'checkInNoPreviousFound' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:317:31 • undefined_getter
+  error • The getter 'checkInLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:341:36 • undefined_getter
+  error • The getter 'checkInDateLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:458:32 • undefined_getter
+  error • The getter 'checkInDayLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:471:32 • undefined_getter
+  error • The getter 'checkInProfileCurrentWeightTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:496:38 • undefined_getter
+  error • The getter 'checkInProfileAverageWeightTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:503:38 • undefined_getter
+  error • The getter 'checkInPhotosMultiFileInfo' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:521:33 • undefined_getter
+  error • The getter 'checkInPhotosSelectFileLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:525:34 • undefined_getter
+   info • Don't use 'BuildContext's across async gaps • lib/presentation/checkIn/pages/checkIn_pages.dart:530:17 • use_build_context_synchronously
+  error • The getter 'checkInPhotosSingleVideoInfo' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:542:33 • undefined_getter
+  error • The getter 'checkInPhotosVideoDropLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:546:34 • undefined_getter
+   info • Don't use 'BuildContext's across async gaps • lib/presentation/checkIn/pages/checkIn_pages.dart:553:17 • use_build_context_synchronously
+  error • The getter 'checkInPhotosUploadSuccess' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:568:49 • undefined_getter
+  error • The getter 'commonUpload' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:580:31 • undefined_getter
+  error • The getter 'commonBack' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:605:35 • undefined_getter
+  error • The getter 'commonNext' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/pages/checkIn_pages.dart:628:35 • undefined_getter
+   info • The file name 'checkIn_widgets.dart' isn't a lower_case_with_underscores identifier • lib/presentation/checkIn/widgets/checkIn_widgets.dart:1:1 • file_names
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/checkIn_widgets.dart:160:58 • deprecated_member_use
+  error • The getter 'checkInSinceLastBadge' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checkIn_widgets.dart:172:45 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/checkIn_widgets.dart:361:48 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/checkIn_widgets.dart:371:43 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/checking_tab.dart:59:50 • deprecated_member_use
+  error • The getter 'checkInSinceLastBadge' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:74:41 • undefined_getter
+  error • The getter 'checkInCheckingCurrentWeightTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:297:36 • undefined_getter
+  error • The getter 'checkInCheckingAverageWeightTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:302:36 • undefined_getter
+  error • The getter 'checkInCheckingBasicDataTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:318:39 • undefined_getter
+  error • The getter 'checkInCheckingPicturesUploadedLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:329:35 • undefined_getter
+  error • The getter 'checkInCheckingVideoUploadedLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:378:35 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/checking_tab.dart:401:51 • deprecated_member_use
+  error • The getter 'checkInCheckingVideoPlaceholderTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:422:44 • undefined_getter
+  error • The getter 'checkInCheckingVideoUploadedSubtitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:435:44 • undefined_getter
+  error • The getter 'checkInCheckingVideoDefaultSubtitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:437:44 • undefined_getter
+  error • The getter 'checkInCheckingQuestionCountDescription' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:464:35 • undefined_getter
+  error • The getter 'checkInQuestion1Title' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:469:35 • undefined_getter
+  error • The getter 'commonNoAnswer' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:486:85 • undefined_getter
+  error • The getter 'checkInQuestion2Title' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:492:35 • undefined_getter
+  error • The getter 'commonNoAnswer' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:509:85 • undefined_getter
+  error • The getter 'checkInWellBeingSectionTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:528:35 • undefined_getter
+  error • The getter 'checkInWellBeingEnergyLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:537:35 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/checking_tab.dart:548:59 • deprecated_member_use
+  error • The getter 'checkInWellBeingStressLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:551:35 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/checking_tab.dart:562:59 • deprecated_member_use
+  error • The getter 'checkInWellBeingMoodLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:565:35 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/checking_tab.dart:576:59 • deprecated_member_use
+  error • The getter 'checkInWellBeingSleepLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:579:35 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/checking_tab.dart:590:59 • deprecated_member_use
+  error • The getter 'checkInNutritionSectionTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:607:35 • undefined_getter
+  error • The getter 'checkInNutritionDietLevelLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:616:35 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/checking_tab.dart:627:59 • deprecated_member_use
+  error • The getter 'checkInNutritionDigestionLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:630:35 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/checking_tab.dart:641:59 • deprecated_member_use
+  error • The getter 'checkInNutritionChallengeTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:645:35 • undefined_getter
+  error • The getter 'commonTypeHint' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:655:41 • undefined_getter
+  error • The getter 'checkInTrainingSectionTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:675:35 • undefined_getter
+  error • The getter 'checkInTrainingFeelStrengthLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:684:35 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/checking_tab.dart:695:59 • deprecated_member_use
+  error • The getter 'checkInTrainingPumpsLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:698:35 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/checking_tab.dart:709:59 • deprecated_member_use
+  error • The getter 'checkInTrainingCompletedLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:714:35 • undefined_getter
+  error • The getter 'checkInTrainingCardioCompletedLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:723:35 • undefined_getter
+  error • The getter 'checkInTrainingFeedbackTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:732:35 • undefined_getter
+  error • The getter 'commonTypeHint' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:742:41 • undefined_getter
+  error • The getter 'checkInAthleteNoteTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:762:35 • undefined_getter
+  error • The getter 'commonTypeHint' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/checking_tab.dart:772:41 • undefined_getter
+   info • Unnecessary use of 'toList' in a spread • lib/presentation/checkIn/widgets/old_checking_tab.dart:381:18 • unnecessary_to_list_in_spreads
+warning • Unused import: 'package:fitness_app/presentation/daily/daily_tracking/presentation/pages/bloc/daily_event.dart' • lib/presentation/checkIn/widgets/questions_tab.dart:4:8 • unused_import
+warning • The declaration '_boxedLabel' isn't referenced • lib/presentation/checkIn/widgets/questions_tab.dart:19:10 • unused_element
+   info • The member 'build' overrides an inherited member but isn't annotated with '@override' • lib/presentation/checkIn/widgets/questions_tab.dart:257:10 • annotate_overrides
+  error • The getter 'checkInQuestion1Title' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:268:29 • undefined_getter
+  error • The getter 'commonAnswer' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:278:35 • undefined_getter
+  error • The getter 'checkInQuestion2Title' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:285:29 • undefined_getter
+  error • The getter 'commonTypeHint' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:295:35 • undefined_getter
+  error • The getter 'checkInWellBeingSectionTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:311:35 • undefined_getter
+  error • The getter 'checkInWellBeingEnergyLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:320:35 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/questions_tab.dart:331:59 • deprecated_member_use
+  error • The getter 'checkInWellBeingStressLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:334:35 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/questions_tab.dart:345:59 • deprecated_member_use
+  error • The getter 'checkInWellBeingMoodLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:348:35 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/questions_tab.dart:359:59 • deprecated_member_use
+  error • The getter 'checkInWellBeingSleepLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:362:35 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/questions_tab.dart:373:59 • deprecated_member_use
+  error • The getter 'checkInNutritionSectionTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:390:35 • undefined_getter
+  error • The getter 'checkInNutritionDietLevelLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:399:35 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/questions_tab.dart:410:59 • deprecated_member_use
+  error • The getter 'checkInNutritionDigestionLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:413:35 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/questions_tab.dart:424:59 • deprecated_member_use
+  error • The getter 'checkInNutritionChallengeTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:428:35 • undefined_getter
+  error • The getter 'commonTypeHint' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:438:41 • undefined_getter
+  error • The getter 'checkInTrainingSectionTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:458:35 • undefined_getter
+  error • The getter 'checkInTrainingFeelStrengthLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:467:35 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/questions_tab.dart:478:59 • deprecated_member_use
+  error • The getter 'checkInTrainingPumpsLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:481:35 • undefined_getter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/checkIn/widgets/questions_tab.dart:492:59 • deprecated_member_use
+  error • The getter 'checkInTrainingCompletedLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:497:35 • undefined_getter
+  error • The getter 'checkInTrainingCardioCompletedLabel' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:506:35 • undefined_getter
+  error • The getter 'checkInTrainingFeedbackTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:514:35 • undefined_getter
+  error • The getter 'commonTypeHint' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:524:41 • undefined_getter
+  error • The getter 'checkInAthleteNoteTitle' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:544:35 • undefined_getter
+  error • The getter 'commonTypeHint' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:554:41 • undefined_getter
+  error • The getter 'commonBack' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:579:37 • undefined_getter
+  error • The getter 'commonNext' isn't defined for the type 'AppLocalizations' • lib/presentation/checkIn/widgets/questions_tab.dart:603:37 • undefined_getter
+warning • Unused import: '../../../../../../domain/entities/daily_entities/daily_tracking_entity.dart' • lib/presentation/daily/daily_tracking/presentation/pages/bloc/daily_bloc.dart:3:8 • unused_import
+warning • Unused import: '../../../../../../domain/entities/daily_entities/training_entity.dart' • lib/presentation/daily/daily_tracking/presentation/pages/bloc/daily_bloc.dart:5:8 • unused_import
+warning • Unused import: '../../../../../../domain/entities/daily_entities/well_being_entity.dart' • lib/presentation/daily/daily_tracking/presentation/pages/bloc/daily_bloc.dart:6:8 • unused_import
+   info • Instances of 'Color' should be created using an 8-digit hexadecimal integer (such as '0xFFFFFFFF') • lib/presentation/daily/daily_tracking/presentation/pages/daily_page.dart:48:46 • use_full_hex_values_for_flutter_colors
+   info • Instances of 'Color' should be created using an 8-digit hexadecimal integer (such as '0xFFFFFFFF') • lib/presentation/daily/pages/daily_pages.dart:49:34 • use_full_hex_values_for_flutter_colors
+   info • The type name 'sickCard' isn't an UpperCamelCase identifier • lib/presentation/daily/pages/daily_pages.dart:282:7 • camel_case_types
+   info • The type name 'weightcard' isn't an UpperCamelCase identifier • lib/presentation/daily/pages/daily_pages.dart:374:7 • camel_case_types
+   info • The type name '_weightcardState' isn't an UpperCamelCase identifier • lib/presentation/daily/pages/daily_pages.dart:381:7 • camel_case_types
+   info • The type name 'sleepcard' isn't an UpperCamelCase identifier • lib/presentation/daily/pages/daily_pages.dart:459:7 • camel_case_types
+   info • The type name '_sleepcardState' isn't an UpperCamelCase identifier • lib/presentation/daily/pages/daily_pages.dart:466:7 • camel_case_types
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/daily/pages/daily_pages.dart:576:38 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/daily/pages/daily_pages.dart:842:142 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/daily/pages/daily_pages.dart:844:148 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/daily/pages/daily_pages.dart:1086:67 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/daily/pages/daily_pages.dart:1096:42 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/daily/pages/daily_pages.dart:1203:42 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/daily/pages/daily_pages.dart:1213:42 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/daily/pages/daily_pages.dart:1223:42 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/daily/pages/daily_pages.dart:1233:42 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/daily/pages/daily_pages.dart:1243:42 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/nutrition/pages/nutrition_food_items_page.dart:243:41 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/nutrition/pages/nutrition_food_items_page.dart:344:22 • deprecated_member_use
+   info • Instances of 'Color' should be created using an 8-digit hexadecimal integer (such as '0xFFFFFFFF') • lib/presentation/nutrition/pages/nutrition_page.dart:101:50 • use_full_hex_values_for_flutter_colors
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/nutrition/pages/nutrition_page.dart:101:64 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/nutrition/pages/nutrition_page.dart:116:62 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/nutrition/pages/nutrition_page.dart:128:62 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/nutrition/pages/nutrition_page.dart:144:62 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/nutrition/pages/nutrition_page.dart:156:62 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/nutrition/pages/nutrition_plan_page.dart:445:22 • deprecated_member_use
+   info • Statements in an if should be enclosed in a block • lib/presentation/nutrition/pages/nutrition_statistics_page.dart:309:21 • curly_braces_in_flow_control_structures
+   info • Unnecessary use of 'toList' in a spread • lib/presentation/nutrition/pages/nutrition_track_meals_page.dart:128:24 • unnecessary_to_list_in_spreads
+   info • Statements in an if should be enclosed in a block • lib/presentation/nutrition/pages/nutrition_track_meals_page.dart:144:9 • curly_braces_in_flow_control_structures
+warning • A value for optional parameter 'key' isn't ever given • lib/presentation/nutrition/pages/nutrition_track_meals_page.dart:675:31 • unused_element_parameter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/profile/pages/profile_page.dart:482:48 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/profile/pages/profile_page.dart:577:39 • deprecated_member_use
+   info • Don't invoke 'print' in production code • lib/presentation/training/pages/exercise_detail_page.dart:64:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/presentation/training/pages/exercise_detail_page.dart:65:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/presentation/training/pages/exercise_detail_page.dart:95:7 • avoid_print
+warning • The value of the local variable 'data' isn't used • lib/presentation/training/pages/training_pages.dart:70:17 • unused_local_variable
+warning • The declaration '_statCard' isn't referenced • lib/presentation/training/pages/training_pages.dart:164:10 • unused_element
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/training/pages/training_plan_page.dart:133:48 • deprecated_member_use
+   info • Function literals shouldn't be passed to 'forEach' • lib/presentation/training/pages/workout_session_page.dart:31:26 • avoid_function_literals_in_foreach_calls
+   info • The type parameter name 'Type' matches a visible type name • lib/usecase/usecase.dart:3:24 • avoid_types_as_parameter_names
+warning • Unused import: 'package:mockito/mockito.dart' • test/core/network/api_client_test.dart:8:8 • unused_import
+warning • The value of the local variable 'apiClient' isn't used • test/core/network/api_client_test.dart:15:18 • unused_local_variable
+warning • The value of the local variable 'tokenStorage' isn't used • test/core/network/api_client_test.dart:18:21 • unused_local_variable
+warning • The value of the local variable 'config' isn't used • test/core/network/api_client_test.dart:19:22 • unused_local_variable
+
