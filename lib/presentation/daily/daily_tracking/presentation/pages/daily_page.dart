@@ -95,14 +95,18 @@ class _DailyView extends GetView<DailyTrackingController> {
         final status = (tokenStorage.getUserStatus() ?? '')
             .trim()
             .toLowerCase();
-        return Padding(
-          padding: EdgeInsets.all(10.h),
-          child: KeyedSubtree(
-            key: ValueKey(data.vital.dateLabel),
-            child: SingleChildScrollView(
-              child: AbsorbPointer(
-                absorbing: controller.isReadOnly.value,
-                child: Column(
+        return GestureDetector(
+          onTap: () => FocusScope.of(context).unfocus(),
+          behavior: HitTestBehavior.opaque,
+          child: Padding(
+            padding: EdgeInsets.all(10.h),
+            child: KeyedSubtree(
+              key: ValueKey(data.vital.dateLabel),
+              child: SingleChildScrollView(
+                keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
+                child: AbsorbPointer(
+                  absorbing: controller.isReadOnly.value,
+                  child: Column(
                   children: [
                     SizedBox(height: 12.h),
                     _dateTodayHeader(
@@ -149,8 +153,9 @@ class _DailyView extends GetView<DailyTrackingController> {
               ),
             ),
           ),
-        );
-      }),
+        ),
+      );
+    }),
     );
   }
 

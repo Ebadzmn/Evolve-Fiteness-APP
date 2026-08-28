@@ -24,13 +24,20 @@ import 'package:fitness_app/core/services/background_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await initializeService();
   await dotenv.load(fileName: ".env");
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   FirebaseMessaging.onBackgroundMessage(firebaseMessagingBackgroundHandler);
   await di.init();
-  await di.sl<FcmService>().init();
+
   runApp(const MyApp());
+
+  // Initialize background service & FCM notifications asynchronously after UI renders
+  unawaited(initializeService().catchError((e) {
+    debugPrint("Background service init error: $e");
+  }));
+  unawaited(di.sl<FcmService>().init().catchError((e) {
+    debugPrint("FCM Service init error: $e");
+  }));
 }
 
 class MyApp extends StatefulWidget {
@@ -83,8 +90,14 @@ class _MyAppState extends State<MyApp> {
               localizationsDelegates: AppLocalizations.localizationsDelegates,
               supportedLocales: AppLocalizations.supportedLocales,
               builder: (context, child) {
-                return ConnectivityBannerWrapper(
-                  child: child ?? const SizedBox.shrink(),
+                return GestureDetector(
+                  onTap: () {
+                    FocusManager.instance.primaryFocus?.unfocus();
+                  },
+                  behavior: HitTestBehavior.translucent,
+                  child: ConnectivityBannerWrapper(
+                    child: child ?? const SizedBox.shrink(),
+                  ),
                 );
               },
               theme: ThemeData(

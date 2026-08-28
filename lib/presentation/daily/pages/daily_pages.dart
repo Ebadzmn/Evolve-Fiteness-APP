@@ -60,10 +60,14 @@ class _DailyPagesState extends State<DailyPages> {
         ],
       ),
 
-      body: Padding(
-        padding: EdgeInsets.all(10.h),
-        child: SingleChildScrollView(
-          child: Column(
+      body: GestureDetector(
+        onTap: () => FocusScope.of(context).unfocus(),
+        behavior: HitTestBehavior.opaque,
+        child: Padding(
+          padding: EdgeInsets.all(10.h),
+          child: SingleChildScrollView(
+            keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
+            child: Column(
             children: [
               SizedBox(height: 12.h),
               Container(
