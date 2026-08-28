@@ -1,4 +1,4 @@
-package com.evolveapp.fitness
+package com.evolveapps.fitness
 
 import io.flutter.embedding.android.FlutterActivity
 
