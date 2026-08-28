@@ -56,3 +56,10 @@ android/.gradle-home/
 ios/.cocoapods/
 **/build/
 
+# Signing & Security
+key.properties
+**/key.properties
+*.jks
+**/upload-keystore.jks
+
+
