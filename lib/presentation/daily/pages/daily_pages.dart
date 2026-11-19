@@ -316,7 +316,8 @@ class _DailyPagesState extends State<DailyPages> {
           ),
         ),
       ),
-    );
+    ),
+  );
   }
 }
 
